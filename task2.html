@@ -38,7 +38,7 @@
             function checkMessage() {
                 const message = document.getElementById('message').value;
                 const result = checkForSpam(message);
-                const resultText = result ? "Ваше повідомлення містить заборонене слово (spam або sale)!" : "Ваше повідомлення не містить заборонених слів.";
+                const resultText = result ? "Ваше повідомлення містить заборонене слово (spam або sale)" : "Ваше повідомлення не містить заборонених слів.";
                 document.getElementById('result').innerText = resultText;
                 console.log(resultText);
             }
